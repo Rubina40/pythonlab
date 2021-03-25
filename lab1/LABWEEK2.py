@@ -1,2 +1,2 @@
 a=9
-print ascii()
+print a
