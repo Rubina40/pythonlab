@@ -1,9 +1,11 @@
-#If temperature is greater than 30, its hot day otherwise
-#if its less than 10; its a cold day oyherwise neither cold nor hot.
-temperature=(float(input("Enter today's temperature:")))
-if temperature>30:
-    print("It's a hot day")
-elif temperature<10:
-    print("It's a cold day")
+#Given three integers, print the smallest one.(Three integers should be user input)
+
+num1=int(input("Enter first number:"))
+num2=int(input("Enter second number:"))
+num3=int(input("Enter third number:"))
+if num1<num2 and num1<num3:
+    print(f"The smallest number is {num1}")
+elif num2<num1 and num2<num3:
+    print(f"The smallest number is {num2} ")
 else:
-    print("Its neither hot nor cold day")
+    print(f"The smallest number is {num3}")

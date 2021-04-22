@@ -1,10 +1,9 @@
-#if name is less than 3 characters long - name must be at least 3 characters otherwise
-#if uts more than 50 characters - name must be maximum of 50 character otherwise -name long
-name = str(input("Enter your name:"))
-length=len(name)
-if length<3:
-    print("Name must be atleast 3 characters long")
-elif length>50:
-    print("Name must be maximum of 50 characters")
-else:
-    print("Nice  name")
+#For given integer x, print ‘True’ if it is positive, print ‘False’ if it is negative and
+# print ‘zero’ if it is 0.
+num=int(input("Enter the number:"))
+if num>0:
+    print("True")
+elif num<0:
+    print("False")
+elif num==0:
+    print("zero")
